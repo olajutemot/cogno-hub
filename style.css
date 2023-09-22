@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.navsection {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-desktop {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navsection li {
+  list-style: none;
+}
+.navsection a,
+.ul-mobile a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navsection i,
+.ul-mobile {
+  display: none;
+}
+
+.ul-mobile {
+  background-color: #074585;
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+  margin: -1.5rem 0 2rem;
+}
+.ul-mobile li {
+  list-style: none;
+}
+.ul-mobile a {
+  color: #fff;
+}
+/* nav styling ends here
+-------------------------------------
+herosection styling start here  */
+.herosection {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.herosection div {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.herosection h1 {
+  font-size: 3rem;
+}
+#herowrap {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#underline {
+  border-bottom: 3px solid rgb(255, 165, 0);
+}
+.herosection p {
+  font-size: 1.3rem;
+}
+.herosection input {
+  width: 60%;
+  font-size: 1.2rem;
+  padding: 1em;
+  border-radius: 5px;
+}
+.herosection a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: -44px;
+  background-color: #074585;
+  padding: 1.1em 1.5em 1.1em;
+  border-radius: 10px;
+}
+
+/* ---------------------------------------------
+midsection1 styling start here 
+--------------------------------------------- */
+.midsection1 {
+  background-color: #3d8ff3;
+  margin: 2rem auto;
+}
+.midsection1 .container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  padding: 6rem;
+}
+.weeks,
+.projects,
+.mentors {
+  border-right: 3px solid rgb(185, 198, 253);
+}
+.midsection1 h1 {
+  font-size: 8rem;
+}
+.midsection1 span {
+  display: block;
+  margin-top: -1em;
+  font-size: 3rem;
+}
+.midsection1 p {
+  font-size: 1.3rem;
+}
+
+/* ---------------------------------------------
+midsection2 styling start here 
+--------------------------------------------- */
+.midsection2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.midsection2 h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.midsection2 div {
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.midsection2 p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.midsection2 a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #074585;
+  padding: 1.1em 3em;
+  border-radius: 5px;
+}
+
+/* ---------------------------------------------
+midsection3 styling start here 
+--------------------------------------------- */
+.midsection3 .container {
+  width: 70%;
+  margin: 10rem auto;
+}
+#learn {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.grid-container3 div {
+  background-color: #dde6f15d;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  border-radius: 10px;
+}
+.grid-container3 div h1 {
+  font-size: 2rem;
+  color: #3d8ff3;
+  padding: 3rem 2rem 0;
+}
+.grid-container3 div p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0 2rem;
+}
+.grid-container3 ul {
+  padding: 0 1rem 4rem 4rem;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+.grid-container3 li {
+  font-size: 1.2rem;
+}
+
+/* ---------------------------------------------
+reviewsection styling start here 
+--------------------------------------------- */
+.reviewsection .container,
+.circle-dot,
+.circle-chevron,
+.review-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviewsection .container {
+  width: 80%;
+  margin: 10rem auto;
+}
+.symbol {
+  width: 35%;
+}
+.symbol h1 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.symbol p {
+  font-size: 1.3rem;
+}
+.reviews {
+  background-color: #dde6f15d;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 60%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.review-image {
+  width: 47%;
+}
+.hidden {
+  display: none;
+}
+.fa-circle-chevron-left,
+.fa-circle-chevron-right {
+  font-size: 2.5rem;
+}
+.testimony {
+  font-size: 1.3rem;
+}
+
+/* ---------------------------------------------
+footersection styling start here 
+--------------------------------------------- */
+.footersection {
+  background: url(./Group\ 2035.png) no-repeat;
+  background-color: #3d8ff3;
+  background-size: cover;
+  height: 60vh;
+}
+.footersection .container {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footersection h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+.footersection a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #000000;
+  padding: 1em 2.5em;
+  border-radius: 5px;
+}
+/* ---------------------------------------------
+mediaquery styling start here 
+--------------------------------------------- */
+/* ---------------------------------------------
+mediaquery styling start here 
+--------------------------------------------- */
+@media screen and (max-width: 890px) {
+  #hamburger {
+    display: block;
+  }
+  #xmark {
+    display: none;
+  }
+  .ul-desktop {
+    display: none;
+  }
+  /* ------------------------------- */
+  .herosection {
+    display: block;
+  }
+  .herosection div {
+    height: 400px;
+    width: auto;
+  }
+  /* ------------------------------- */
+  .midsection1 .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 3rem;
+  }
+  .midsection1 h1 {
+    font-size: 4rem;
+  }
+  .midsection1 span {
+    font-size: 2rem;
+  }
+  .midsection1 p {
+    font-size: 1rem;
+  }
+  .projects {
+    border: none;
+  }
+  /* ------------------------------------ */
+  .midsection2 div {
+    width: 100%;
+    height: 500px;
+  }
+  .midsection2 img {
+    display: none;
+  }
+  .midsection2 h1 {
+    font-size: 2rem;
+  }
+  /* ---------------------------------------- */
+  .grid-container3 {
+    display: block;
+  }
+  .grid-container3 div {
+    margin-bottom: 2rem;
+  }
+  /* -------------------------------------- */
+  .symbol,
+  .reviews {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .reviewsection .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .review-image {
+    width: 55%;
+  }
+  .review-image h1,
+  .testimony {
+    font-size: 1.2rem;
+  }
+  .symbol h1 {
+    padding-bottom: 1rem;
+  }
+  /* ---------------------------------- */
+  .footersection {
+    height: 40vh;
+    background-position-x: -160px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .herosection img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 585px) {
+  .herosection h1 {
+    font-size: 2rem;
+  }
+  .herosection p,
+  .midsection2 p {
+    font-size: 1rem;
+  }
+  .herosection a {
+    margin: 0;
+  }
+  .herosection div {
+    height: auto;
+  }
+  .herosection input {
+    width: 80%;
+    margin: 0.9rem 0;
+  }
+  .herosection img {
+    width: 300px;
+  }
+  .midsection1 .container {
+    padding: 1rem;
+  }
+  .midsection1 h1 {
+    font-size: 3rem;
+  }
+  .midsection1 span {
+    font-size: 1rem;
+  }
+  .midsection1 p {
+    font-size: 0.6rem;
+  }
+  .midsection2 h1 {
+    font-size: 1.3rem;
+  }
+  .midsection2 div {
+    height: 400px;
+  }
+  .midsection3 .container {
+    width: 100%;
+    margin: 5rem auto;
+  }
+  #learn {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+  .review-image h1 {
+    font-size: 1rem;
+  }
+  .testimony {
+    font-size: 1rem;
+  }
+  .symbol h1 {
+    padding-bottom: 1rem;
+  }
+  .review-image div {
+    display: none;
+  }
+  .symbol h1 {
+    font-size: 2rem;
+  }
+  .footersection .container {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footersection h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+  }
+  .footersection a {
+    font-size: 1rem;
+  }
+}
